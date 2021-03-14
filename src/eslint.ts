@@ -33,8 +33,6 @@ module.exports = {
     'airbnb',
     'airbnb-typescript',
     'prettier',
-    'prettier/react',
-    'prettier/@typescript-eslint',
   ],
   plugins: ['eslint-comments', 'jest', 'unicorn', 'react-hooks'],
   env: {
