@@ -7,15 +7,18 @@ module.exports = {
     'stylelint-config-rational-order',
     'stylelint-config-prettier',
   ],
-  plugins: ['stylelint-order', 'stylelint-declaration-block-no-ignored-properties'],
+  plugins: [
+    'stylelint-order',
+    'stylelint-declaration-block-no-ignored-properties',
+    'stylelint-prettier',
+  ],
   rules: {
+    'prettier/prettier': true,
     'no-descending-specificity': null,
-    // https://github.com/stylelint/stylelint/issues/4114
     'function-calc-no-invalid': null,
     'function-url-quotes': 'always',
     'font-family-no-missing-generic-family-keyword': null, // iconfont
     'plugin/declaration-block-no-ignored-properties': true,
-    'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
     'at-rule-no-unknown': [
       true,
       {
