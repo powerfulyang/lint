@@ -2,15 +2,15 @@
 
 module.exports = {
   singleQuote: true,
-  trailingComma: "all",
+  trailingComma: 'all',
   printWidth: 100,
-  proseWrap: "never",
-  endOfLine: "lf",
+  proseWrap: 'never',
+  endOfLine: 'lf',
   overrides: [
     {
-      files: "document.ejs",
+      files: 'document.ejs',
       options: {
-        parser: "html",
+        parser: 'html',
       },
     },
   ],
