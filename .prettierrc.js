@@ -1,5 +1,5 @@
-const lint = require('./dist');
+const prettier = require('@powerfulyang/lint/dist/prettier');
 
 module.exports = {
-  ...lint.prettier,
+  ...prettier,
 };
