@@ -1,4 +1,4 @@
-const stylelint = require('@powerfulyang/lint/dist/stylelint');
+const { stylelint } = require('./dist');
 
 module.exports = {
   ...stylelint,

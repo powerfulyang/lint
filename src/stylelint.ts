@@ -1,10 +1,7 @@
-/** @format */
-
-module.exports = {
+export default {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-css-modules',
-    'stylelint-config-rational-order',
     'stylelint-config-prettier',
   ],
   plugins: [
@@ -12,14 +9,14 @@ module.exports = {
     'stylelint-declaration-block-no-ignored-properties',
     'stylelint-prettier',
   ],
-  'overrides': [
+  overrides: [
     {
       files: ['**/*.scss'],
       customSyntax: 'postcss-scss',
       rules: {
         'prettier/prettier': true,
       },
-    }
+    },
   ],
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
 };

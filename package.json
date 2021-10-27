@@ -1,6 +1,6 @@
 {
   "name": "@powerfulyang/lint",
-  "version": "0.3.10",
+  "version": "0.4.0",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "keywords": [
     "eslint",
@@ -13,9 +13,9 @@
     "dist",
     "install.js",
     ".editorconfig",
-    ".eslintrc.js",
-    ".prettierrc.js",
-    ".stylelintrc.js"
+    ".eslintrc.js.template",
+    ".prettierrc.js.template",
+    ".stylelintrc.js.template"
   ],
   "scripts": {
     "patch-version": "npm version patch --no-git-tag-version",
@@ -26,9 +26,9 @@
   },
   "dependencies": {
     "@types/jest": "^27.0.2",
-    "@types/node": "^16.11.4",
-    "@typescript-eslint/eslint-plugin": "^5.1.0",
-    "@typescript-eslint/parser": "^5.1.0",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
     "autoprefixer": "^10.3.7",
     "eslint": "^8.1.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -52,9 +52,9 @@
     "postcss-sass": "^0.5.0",
     "prettier": "^2.4.1",
     "prettier-plugin-style-order": "^0.2.2",
-    "sass": "^1.43.3",
-    "stylelint": "^14.0.0",
-    "stylelint-config-css-modules": "^2.2.0",
+    "sass": "^1.43.4",
+    "stylelint": "^14.0.1",
+    "stylelint-config-css-modules": "^2.3.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^23.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.4.0",

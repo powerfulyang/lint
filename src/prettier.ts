@@ -1,6 +1,4 @@
-/** @format */
-
-module.exports = {
+export default {
   singleQuote: true,
   trailingComma: 'all',
   printWidth: 100,
