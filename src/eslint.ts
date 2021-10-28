@@ -25,13 +25,13 @@ export default {
         disallowTypeAnnotations: true,
       },
     ],
+    'no-restricted-syntax': 0,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    requireConfigFile: false,
     project: './tsconfig.json',
   },
   settings: {
