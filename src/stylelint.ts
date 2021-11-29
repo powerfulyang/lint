@@ -8,7 +8,13 @@ export default {
     'stylelint-order',
     'stylelint-declaration-block-no-ignored-properties',
     'stylelint-prettier',
+    'stylelint-scss',
   ],
+  rules: {
+    'at-rule-no-unknown': null,
+    'scss/at-rule-no-unknown': true,
+    'plugin/declaration-block-no-ignored-properties': true,
+  },
   overrides: [
     {
       files: ['**/*.scss'],

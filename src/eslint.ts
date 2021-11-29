@@ -1,10 +1,10 @@
 export default {
   extends: ['airbnb', 'airbnb-typescript', 'prettier'],
-  plugins: ['eslint-comments', 'jest', 'unicorn', 'react-hooks'],
+  plugins: ['eslint-comments', 'jest', 'unicorn', 'react-hooks', 'import', 'jsx-a11y', 'react'],
   env: {
     browser: true,
     node: true,
-    es2020: true,
+    es2021: true,
     jest: true,
   },
   rules: {
@@ -49,9 +49,5 @@ export default {
     },
     'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx', '.d.ts'],
     'import/external-module-folders': ['node_modules', 'node_modules/@types'],
-  },
-  globals: {
-    JSX: true,
-    NodeJS: true,
   },
 };

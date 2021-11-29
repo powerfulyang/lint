@@ -1,10 +1,18 @@
+/* eslint-disable */
+ 
 const fs = require('fs');
 const { join } = require('path');
 
 const dir = join('../../..');
 const pkgPath = join(dir, 'package.json');
-// eslint-disable-next-line import/no-dynamic-require
+const isExist = fs.existsSync(pkgPath)
+if(!isExist) {
+  console.warn('package.json not found');
+  process.exit(0);
+}
+
 const pkg = require(pkgPath);
+
 const isEsModule = pkg.type === 'module';
 
 if (!__dirname.includes('node_modules')) {

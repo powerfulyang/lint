@@ -1,0 +1,19 @@
+.parent {
+  .child {
+    display: inline;
+    width: 100px;
+    height: 100px;
+  }
+
+  .sample {
+    size: a4;
+  }
+
+  .child2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+
+    @extend .sample;
+  }
+}
