@@ -19,7 +19,7 @@ export default {
       },
     ],
     'plugin/declaration-block-no-ignored-properties': true,
-    'font-family-name-quotes': false,
+    'font-family-name-quotes': null,
   },
   overrides: [
     {
