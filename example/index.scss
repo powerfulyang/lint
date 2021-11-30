@@ -1,8 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
 .parent {
   .child {
     display: inline;
-    width: 100px;
-    height: 100px;
   }
 
   .sample {
@@ -13,7 +16,13 @@
     display: block;
     width: 100px;
     height: 100px;
+    font-family: 'Zpix', sans-serif;
 
+    @screen sm {
+      width: 50px;
+    }
+
+    @apply text-sm;
     @extend .sample;
   }
 }

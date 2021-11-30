@@ -12,8 +12,14 @@ export default {
   ],
   rules: {
     'at-rule-no-unknown': null,
-    'scss/at-rule-no-unknown': true,
+    'scss/at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['tailwind', 'apply', 'variants', 'responsive', 'screen'],
+      },
+    ],
     'plugin/declaration-block-no-ignored-properties': true,
+    'font-family-name-quotes': false,
   },
   overrides: [
     {

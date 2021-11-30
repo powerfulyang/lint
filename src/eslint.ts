@@ -29,6 +29,16 @@ export default {
     'no-underscore-dangle': 0,
     'no-await-in-loop': 0,
     '@typescript-eslint/naming-convention': 0,
+    'react/function-component-definition': [
+      2,
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
+    'react/prefer-stateless-function': 'error',
+    'react/display-name': 'error',
+    'react/jsx-key': 'error',
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
