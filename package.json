@@ -1,6 +1,6 @@
 {
   "name": "@powerfulyang/lint",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "keywords": [
     "eslint",
@@ -19,11 +19,12 @@
   ],
   "scripts": {
     "patch-version": "npm version patch --no-git-tag-version",
-    "install": "node ./install.js",
+    "postinstall": "node ./install.js",
     "build": "rimraf dist && tsc --build tsconfig.build.json",
     "prettier": "prettier \"src/**/*.ts\" --write",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
-    "fix:style": "stylelint --fix \"example/*.scss\""
+    "fix:style": "stylelint --fix \"example/*.scss\"",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@types/jest": "^27.0.3",
