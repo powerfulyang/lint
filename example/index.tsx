@@ -1,10 +1,20 @@
 import type { FC } from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { useEffect, useState } from 'react';
 
-export const App: FC = () => (
-  <div>
-    <h1>Hello World</h1>
-    {[1, 2].map((i) => (
-      <div key={i}>{i}</div>
-    ))}
-  </div>
-);
+export const App: FC = () => {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    console.log(count);
+  }, [count]);
+  return (
+    <div>
+      <button type="button" onClick={() => setCount(1)}>
+        Hello World
+      </button>
+      {[1, 2].map((i) => (
+        <div key={i}>{i}</div>
+      ))}
+    </div>
+  );
+};

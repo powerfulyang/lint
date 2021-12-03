@@ -39,6 +39,8 @@ export default {
     'react/prefer-stateless-function': 'error',
     'react/display-name': 'error',
     'react/jsx-key': 'error',
+    'react-hooks/rules-of-hooks': 'error', // Checks rule of Hooks
+    'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
