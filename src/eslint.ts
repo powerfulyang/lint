@@ -41,6 +41,7 @@ export default {
     'react/jsx-key': 'error',
     'react-hooks/rules-of-hooks': 'error', // Checks rule of Hooks
     'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
+    'arrow-body-style': 0,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {

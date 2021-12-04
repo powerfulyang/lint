@@ -1,6 +1,6 @@
 {
   "name": "@powerfulyang/lint",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "keywords": [
     "eslint",
