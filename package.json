@@ -1,6 +1,6 @@
 {
   "name": "@powerfulyang/lint",
-  "version": "0.7.6",
+  "version": "0.7.9",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "keywords": [
     "eslint",
@@ -15,16 +15,21 @@
     ".editorconfig",
     ".eslintrc.js.template",
     ".prettierrc.js.template",
-    ".stylelintrc.js.template"
+    ".stylelintrc.js.template",
+    ".gitattributes.template",
+    ".editorconfig.template"
   ],
   "scripts": {
     "patch-version": "npm version patch --no-git-tag-version",
     "postinstall": "node ./install.js",
-    "build": "rimraf dist && tsc --build tsconfig.build.json",
-    "prettier": "prettier \"src/**/*.ts\" --write",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
+    "prettier": "prettier \"{src,example}/**/*.{ts,tsx,scss,json,js}\" --write",
+    "lint:js": "eslint --ext .js,.jsx,.ts,.tsx --fix",
     "fix:style": "stylelint --fix \"example/*.scss\"",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "husky install",
+    "tsc": "tsc --noEmit",
+    "precommit": "npm run lint:js && npm run prettier && npm run tsc"
   },
   "dependencies": {
     "@types/jest": "^27.0.3",
@@ -45,6 +50,7 @@
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "eslint-plugin-unicorn": "^39.0.0",
+    "husky": "^7.0.4",
     "jest": "^27.4.0",
     "postcss": "^8.4.4",
     "postcss-scss": "^4.0.2",

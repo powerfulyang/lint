@@ -1,12 +1,12 @@
 /* eslint-disable */
- 
+
 const fs = require('fs');
 const { join } = require('path');
 
 const dir = join('../../..');
 const pkgPath = join(dir, 'package.json');
-const isExist = fs.existsSync(pkgPath)
-if(!isExist) {
+const isExist = fs.existsSync(pkgPath);
+if (!isExist) {
   console.warn('package.json not found');
   process.exit(0);
 }
@@ -16,6 +16,7 @@ const pkg = require(pkgPath);
 const isEsModule = pkg.type === 'module';
 
 if (!__dirname.includes('node_modules')) {
+  console.warn('not install in node_modules');
   process.exit(0);
 }
 
@@ -44,4 +45,16 @@ const stylelint = join(dir, stylelintConfigPath);
 if (!fs.existsSync(stylelint)) {
   const data = fs.readFileSync('.stylelintrc.js.template');
   fs.writeFileSync(stylelint, data);
+}
+
+const editorconfigPath = join(dir, '.editorconfig');
+if (!fs.existsSync(editorconfigPath)) {
+  const data = fs.readFileSync('.editorconfig.template');
+  fs.writeFileSync(editorconfigPath, data);
+}
+
+const gitattributesPath = join(dir, '.gitattributes');
+if (!fs.existsSync(gitattributesPath)) {
+  const data = fs.readFileSync('.gitattributes.template');
+  fs.writeFileSync(gitattributesPath, data);
 }
