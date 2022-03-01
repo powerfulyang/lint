@@ -1,9 +1,20 @@
-/* eslint-disable */
+#!/usr/bin/env node
 
 const fs = require('fs');
 const { join } = require('path');
 
-const dir = join('../../..');
+// TODO replace by @powerfulyang/cli
+console.log('============ @powerfulyang/lint init =============');
+/**
+ * [
+ *   'C:\\Program Files\\nodejs\\node.exe',
+ *   'C:\\Users\\powerfulyang\\WebstormProjects\\lint\\start.js',
+ *   'init'
+ * ]
+ */
+console.log(process.argv); // 取 process.argv 的第二个以后参数
+
+const dir = process.cwd();
 const pkgPath = join(dir, 'package.json');
 const isExist = fs.existsSync(pkgPath);
 if (!isExist) {
@@ -14,11 +25,6 @@ if (!isExist) {
 const pkg = require(pkgPath);
 
 const isEsModule = pkg.type === 'module';
-
-if (!__dirname.includes('node_modules')) {
-  console.warn('not install in node_modules');
-  process.exit(0);
-}
 
 const editorconfig = join(dir, '.editorconfig');
 if (!fs.existsSync(editorconfig)) {
@@ -57,4 +63,10 @@ const gitattributesPath = join(dir, '.gitattributes');
 if (!fs.existsSync(gitattributesPath)) {
   const data = fs.readFileSync('.gitattributes.template');
   fs.writeFileSync(gitattributesPath, data);
+}
+
+const lintstagedrcPath = join(dir, '.lintstagedrc');
+if (!fs.existsSync(lintstagedrcPath)) {
+  const data = fs.readFileSync('.lintstagedrc.template');
+  fs.writeFileSync(lintstagedrcPath, data);
 }

@@ -1,5 +1,4 @@
 import type { FC } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { useEffect, useState } from 'react';
 
 export const App: FC = () => {
