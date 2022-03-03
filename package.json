@@ -1,11 +1,14 @@
 {
   "name": "@powerfulyang/lint",
-  "version": "0.7.11",
+  "version": "0.7.12",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "author": {
     "name": "powerfulyang",
     "email": "i@powerfulyang.com",
     "url": "https://powerfulyang.com"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "eslint",
@@ -14,17 +17,8 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "bin": "./start.js",
   "files": [
-    "dist",
-    "start.js",
-    ".editorconfig",
-    ".eslintrc.js.template",
-    ".prettierrc.js.template",
-    ".stylelintrc.js.template",
-    ".gitattributes.template",
-    ".editorconfig.template",
-    ".lintstagedrc.template"
+    "dist"
   ],
   "scripts": {
     "patch-version": "npm version patch --no-git-tag-version",
@@ -48,7 +42,7 @@
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.1.0",
-    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.25.4",
