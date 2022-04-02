@@ -4,7 +4,7 @@ export default {
   env: {
     browser: true,
     node: true,
-    es2021: true,
+    es2022: true,
     jest: true,
   },
   rules: {
@@ -43,6 +43,7 @@ export default {
     'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
     'arrow-body-style': 0,
     '@typescript-eslint/restrict-plus-operands': 'error',
+    'class-methods-use-this': 'off',
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
