@@ -1,11 +1,11 @@
 {
-  "**/*.{ts,tsx,json,js}": [
+  "**/*.{ts,tsx,json,js,scss}": [
     "prettier --write"
   ],
   "**/*.{ts,tsx,js}": [
     "eslint --fix"
   ],
-  "**/*.{scss}": [
+  "**/*.scss": [
     "stylelint --fix"
   ]
 }

@@ -17,6 +17,5 @@
     "declaration": true,
     "jsx": "react-jsx"
   },
-  "exclude": ["node_modules", "dist"],
-  "include": ["src/*.ts", "start.js", ".eslintrc.js", "example/*.tsx"]
+  "include": [".eslintrc.js", "commitlint.config.js", "src/**/*.ts", "example/**/*.tsx"]
 }
