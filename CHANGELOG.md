@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/powerfulyang/lint/compare/v1.0.0...v1.0.1) (2022-04-23)
+
+
+### Bug Fixes
+
+* don't touch magic number ([7c70bd2](https://github.com/powerfulyang/lint/commit/7c70bd2f4a6d64f9c11f91b50ab223668764b99f))
+
 ## 1.0.0 (2022-04-23)
 
 
