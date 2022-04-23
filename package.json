@@ -29,7 +29,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rimraf dist && tsc",
+    "build": "rimraf dist && tsc -p tsconfig.build.json",
     "prettier": "prettier \"{src,example}/**/*.{ts,tsx,scss,json,js}\" --write",
     "lint:js": "eslint --ext .js,.jsx,.ts,.tsx ./src --fix",
     "lint:style": "stylelint --fix \"example/*.scss\"",
