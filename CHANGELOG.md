@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.3](https://github.com/powerfulyang/lint/compare/v1.0.2...v1.0.3) (2022-04-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss-scss to v4.0.4 ([86415a2](https://github.com/powerfulyang/lint/commit/86415a29c15369a4e98ea290fe88ca270ce262aa))
+
 ### [1.0.2](https://github.com/powerfulyang/lint/compare/v1.0.1...v1.0.2) (2022-04-24)
 
 
