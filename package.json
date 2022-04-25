@@ -63,7 +63,7 @@
     "jest": "27.5.1",
     "lint-staged": "12.4.0",
     "postcss": "8.4.12",
-    "postcss-scss": "4.0.3",
+    "postcss-scss": "4.0.4",
     "prettier": "2.6.2",
     "rimraf": "3.0.2",
     "sass": "1.50.1",
