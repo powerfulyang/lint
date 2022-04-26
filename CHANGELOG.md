@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://github.com/powerfulyang/lint/compare/v1.1.0...v1.1.1) (2022-04-26)
+
+
+### Bug Fixes
+
+* should set incremental false in tsconfig.json ([a70d153](https://github.com/powerfulyang/lint/commit/a70d153d11fb4a90c3585de1d35a63d3f92c9fe4))
+
 ## [1.1.0](https://github.com/powerfulyang/lint/compare/v1.0.3...v1.1.0) (2022-04-26)
 
 
