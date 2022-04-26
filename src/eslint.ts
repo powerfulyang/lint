@@ -64,12 +64,6 @@ export default {
           },
         ],
       },
-      settings: {
-        'import/parsers': {
-          '@typescript-eslint/parser': ['.ts', '.tsx', '.cts', '.mts'],
-        },
-        'import/extensions': ['.js', '.mjs', '.cjs', '.jsx', '.ts', '.cts', '.mts', '.tsx'],
-      },
     },
   ],
 };
