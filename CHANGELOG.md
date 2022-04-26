@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/powerfulyang/lint/compare/v1.0.3...v1.1.0) (2022-04-26)
+
+
+### Features
+
+* 一些重要不重要的都丢过来 ([b371edf](https://github.com/powerfulyang/lint/commit/b371edf29a3de178e9e0a5a0c17e2c2be8920dae))
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5.21.0 ([8cca2e4](https://github.com/powerfulyang/lint/commit/8cca2e4f717a27f2c8ad11d13d0a6023cdcb4f08))
+
 ### [1.0.3](https://github.com/powerfulyang/lint/compare/v1.0.2...v1.0.3) (2022-04-25)
 
 
