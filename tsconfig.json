@@ -17,7 +17,7 @@
     "declaration": true,
     "jsx": "react",
     "noImplicitAny": false,
-    "incremental": true
+    "incremental": false
   },
   "include": ["src/**/*.ts", "example/**/*.tsx"]
 }
