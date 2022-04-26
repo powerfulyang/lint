@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.1.3](https://github.com/powerfulyang/lint/compare/v1.1.2...v1.1.3) (2022-04-26)
+
+
+### Bug Fixes
+
+* settings 在 eslint-config-airbnb 已经有了 ([6ba8913](https://github.com/powerfulyang/lint/commit/6ba89139d354735579a632d3540da41fd93e57d5))
+* 额外处理 eslintrc.js and eslintrc.cjs ([cf8b9c7](https://github.com/powerfulyang/lint/commit/cf8b9c7a537db1727f3fc2f2892a386b272384a4))
+
 ### [1.1.2](https://github.com/powerfulyang/lint/compare/v1.1.1...v1.1.2) (2022-04-26)
 
 
