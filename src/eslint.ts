@@ -8,27 +8,17 @@ export default {
     jest: true,
   },
   rules: {
-    'import/extensions': 0,
     'import/prefer-default-export': 0,
-    'no-plusplus': 0,
     'import/no-default-export': [0, 'camel-case'],
+    'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['draft'] }],
+    'no-restricted-syntax': 0,
+    'no-underscore-dangle': 0,
+    'arrow-body-style': 0,
+    'class-methods-use-this': 'off',
     'react/jsx-props-no-spreading': 0,
     'react/react-in-jsx-scope': 0,
     'react/prop-types': 0,
-    '@typescript-eslint/no-unused-expressions': 0,
     'react/require-default-props': 0,
-    'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['draft'] }],
-    '@typescript-eslint/consistent-type-imports': [
-      1,
-      {
-        prefer: 'type-imports',
-        disallowTypeAnnotations: true,
-      },
-    ],
-    'no-restricted-syntax': 0,
-    'no-underscore-dangle': 0,
-    'no-await-in-loop': 0,
-    '@typescript-eslint/naming-convention': 0,
     'react/function-component-definition': [
       2,
       {
@@ -40,29 +30,46 @@ export default {
     'react/display-name': 'error',
     'react/jsx-key': 'error',
     'react-hooks/rules-of-hooks': 'error', // Checks rule of Hooks
-    'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
-    'arrow-body-style': 0,
-    '@typescript-eslint/restrict-plus-operands': 'error',
-    'class-methods-use-this': 'off',
+    'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
   },
-  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
-    project: './tsconfig.json',
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-  settings: {
-    // support import modules from TypeScript files in JavaScript files
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
+  overrides: [
+    {
+      files: ['*.tsx', '*.ts', '*.mts', '*.cts'],
+      extends: ['airbnb-typescript'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: './tsconfig.json',
+        ecmaFeatures: {
+          jsx: true,
+        },
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+      },
+      rules: {
+        '@typescript-eslint/no-unused-expressions': 0,
+        '@typescript-eslint/naming-convention': 0,
+        '@typescript-eslint/restrict-plus-operands': 'error',
+        '@typescript-eslint/consistent-type-imports': [
+          1,
+          {
+            prefer: 'type-imports',
+            disallowTypeAnnotations: true,
+          },
+        ],
+      },
+      settings: {
+        'import/parsers': {
+          '@typescript-eslint/parser': ['.ts', '.tsx', '.cts', '.mts'],
+        },
+        'import/extensions': ['.js', '.mjs', '.cjs', '.jsx', '.ts', '.cts', '.mts', '.tsx'],
       },
     },
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
-    },
-    'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx', '.d.ts'],
-    'import/external-module-folders': ['node_modules', 'node_modules/@types'],
-  },
+  ],
 };

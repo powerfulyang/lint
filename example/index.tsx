@@ -1,16 +1,12 @@
 import type { FC } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 export const App: FC = () => {
   const [count, setCount] = useState(0);
-  useEffect(() => {
-    console.log(count);
-  }, [count]);
   return (
     <div>
       <button type="button" onClick={() => setCount(1)}>
-        Hello World
+        Hello World {count}
       </button>
       {[1, 2].map((i) => (
         <div key={i}>{i}</div>

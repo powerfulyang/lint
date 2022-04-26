@@ -15,7 +15,9 @@
     "strict": true,
     "skipLibCheck": true,
     "declaration": true,
-    "jsx": "react-jsx"
+    "jsx": "react",
+    "noImplicitAny": false,
+    "incremental": true
   },
-  "include": [".eslintrc.js", "commitlint.config.js", "src/**/*.ts", "example/**/*.tsx"]
+  "include": ["src/**/*.ts", "example/**/*.tsx"]
 }
