@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.2](https://github.com/powerfulyang/lint/compare/v1.1.1...v1.1.2) (2022-04-26)
+
+
+### Bug Fixes
+
+* 愚昧啊，哥哥。本来都好了我再改坏掉 ([bd72e9f](https://github.com/powerfulyang/lint/commit/bd72e9f9c9e227a3596bd5054037f901ddc0962d))
+
 ### [1.1.1](https://github.com/powerfulyang/lint/compare/v1.1.0...v1.1.1) (2022-04-26)
 
 
