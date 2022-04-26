@@ -31,6 +31,10 @@ export default {
     'react/jsx-key': 'error',
     'react-hooks/rules-of-hooks': 'error', // Checks rule of Hooks
     'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['.eslintrc.cjs', '.eslintrc.js'] },
+    ],
   },
   parserOptions: {
     ecmaFeatures: {
