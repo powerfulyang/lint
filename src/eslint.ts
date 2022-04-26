@@ -1,5 +1,5 @@
 export default {
-  extends: ['airbnb', 'airbnb-typescript', 'prettier'],
+  extends: ['airbnb', 'prettier'],
   plugins: ['eslint-comments', 'jest', 'unicorn', 'react-hooks', 'import', 'jsx-a11y', 'react'],
   env: {
     browser: true,
