@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.5](https://github.com/powerfulyang/lint/compare/v1.1.4...v1.1.5) (2022-04-27)
+
+
+### Bug Fixes
+
+* **eslint:** incorrect config for typescript ([6177c06](https://github.com/powerfulyang/lint/commit/6177c061a7a43c751321bdf1f376dab010cd0f3b))
+
 ### [1.1.4](https://github.com/powerfulyang/lint/compare/v1.1.3...v1.1.4) (2022-04-27)
 
 
