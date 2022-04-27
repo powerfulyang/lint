@@ -46,7 +46,7 @@ export default {
   overrides: [
     {
       files: ['*.tsx', '*.ts', '*.mts', '*.cts'],
-      extends: ['airbnb-typescript'],
+      extends: ['airbnb-typescript', 'prettier'],
       parser: '@typescript-eslint/parser',
       parserOptions: {
         project: './tsconfig.json',
