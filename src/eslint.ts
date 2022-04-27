@@ -49,14 +49,7 @@ export default {
     {
       files: ['*.tsx', '*.ts', '*.mts', '*.cts'],
       plugins: ['eslint-comments', 'jest', 'unicorn'],
-      extends: [
-        'airbnb',
-        'airbnb/hooks',
-        'airbnb-typescript',
-        'prettier',
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
-      ],
+      extends: ['airbnb', 'airbnb/hooks', 'airbnb-typescript', 'prettier'],
       parserOptions: {
         project: './tsconfig.json',
         ecmaFeatures: {
@@ -75,6 +68,19 @@ export default {
           {
             prefer: 'type-imports',
             disallowTypeAnnotations: true,
+          },
+        ],
+        '@typescript-eslint/restrict-template-expressions': 'error',
+        'require-await': 'off',
+        '@typescript-eslint/require-await': 'error',
+        '@typescript-eslint/await-thenable': 'error',
+        'no-loss-of-precision': 'off',
+        '@typescript-eslint/no-loss-of-precision': 'error',
+        '@typescript-eslint/no-misused-new': 'error',
+        '@typescript-eslint/unbound-method': [
+          'error',
+          {
+            ignoreStatic: true,
           },
         ],
       },

@@ -16,7 +16,7 @@
     "skipLibCheck": true,
     "declaration": true,
     "jsx": "react",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "incremental": false,
     "paths": {
       "@/*": ["./src/*"]
