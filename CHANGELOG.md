@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/powerfulyang/lint/compare/v1.1.5...v1.2.0) (2022-04-27)
+
+
+### Features
+
+* **jest:** builtin jsdom ([94cf329](https://github.com/powerfulyang/lint/commit/94cf329ff295b115efba8969bfea74268d33d598))
+
 ### [1.1.5](https://github.com/powerfulyang/lint/compare/v1.1.4...v1.1.5) (2022-04-27)
 
 
