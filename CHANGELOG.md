@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.4](https://github.com/powerfulyang/lint/compare/v1.1.3...v1.1.4) (2022-04-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies ([8df5351](https://github.com/powerfulyang/lint/commit/8df5351f1342d463a24089890e699d578f4811ac))
+
 ### [1.1.3](https://github.com/powerfulyang/lint/compare/v1.1.2...v1.1.3) (2022-04-26)
 
 
