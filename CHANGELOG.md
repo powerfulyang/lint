@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/powerfulyang/lint/compare/v1.2.0...v1.3.0) (2022-04-27)
+
+
+### Features
+
+* eslint-plugin-import 一些支持 ([d578fd8](https://github.com/powerfulyang/lint/commit/d578fd8816619d86677f87a90ee7409c553df764))
+
+
+### Bug Fixes
+
+* **jest:** jest@28 下 WebStorm DEBUG 有问题 ([d578fd8](https://github.com/powerfulyang/lint/commit/d578fd8816619d86677f87a90ee7409c553df764))
+
 ## [1.2.0](https://github.com/powerfulyang/lint/compare/v1.1.5...v1.2.0) (2022-04-27)
 
 
