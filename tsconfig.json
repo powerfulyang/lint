@@ -3,7 +3,7 @@
     "outDir": "dist",
     "module": "CommonJS",
     "target": "ESNext",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
@@ -17,7 +17,10 @@
     "declaration": true,
     "jsx": "react",
     "noImplicitAny": false,
-    "incremental": false
+    "incremental": false,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src/**/*.ts", "example/**/*.tsx"]
 }

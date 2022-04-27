@@ -1,41 +1,43 @@
+const baseRule = {
+  'import/prefer-default-export': 0,
+  'import/no-default-export': [0, 'camel-case'],
+  'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['draft'] }],
+  'no-restricted-syntax': 0,
+  'no-underscore-dangle': 0,
+  'arrow-body-style': 0,
+  'class-methods-use-this': 'off',
+  'react/jsx-props-no-spreading': 0,
+  'react/react-in-jsx-scope': 0,
+  'react/prop-types': 0,
+  'react/require-default-props': 0,
+  'react/function-component-definition': [
+    2,
+    {
+      namedComponents: 'arrow-function',
+      unnamedComponents: 'arrow-function',
+    },
+  ],
+  'react/prefer-stateless-function': 'error',
+  'react/display-name': 'error',
+  'react/jsx-key': 'error',
+  'react-hooks/rules-of-hooks': 'error', // Checks rule of Hooks
+  'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
+  'import/no-extraneous-dependencies': [
+    'error',
+    { devDependencies: ['.eslintrc.cjs', '.eslintrc.js', '**/*.config.js'] },
+  ],
+};
+
 export default {
-  extends: ['airbnb', 'prettier'],
-  plugins: ['eslint-comments', 'jest', 'unicorn', 'react-hooks', 'import', 'jsx-a11y', 'react'],
+  plugins: ['eslint-comments', 'jest', 'unicorn'],
+  extends: ['airbnb', 'airbnb/hooks', 'prettier'],
   env: {
     browser: true,
     node: true,
     es2022: true,
     jest: true,
   },
-  rules: {
-    'import/prefer-default-export': 0,
-    'import/no-default-export': [0, 'camel-case'],
-    'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['draft'] }],
-    'no-restricted-syntax': 0,
-    'no-underscore-dangle': 0,
-    'arrow-body-style': 0,
-    'class-methods-use-this': 'off',
-    'react/jsx-props-no-spreading': 0,
-    'react/react-in-jsx-scope': 0,
-    'react/prop-types': 0,
-    'react/require-default-props': 0,
-    'react/function-component-definition': [
-      2,
-      {
-        namedComponents: 'arrow-function',
-        unnamedComponents: 'arrow-function',
-      },
-    ],
-    'react/prefer-stateless-function': 'error',
-    'react/display-name': 'error',
-    'react/jsx-key': 'error',
-    'react-hooks/rules-of-hooks': 'error', // Checks rule of Hooks
-    'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
-    'import/no-extraneous-dependencies': [
-      'error',
-      { devDependencies: ['.eslintrc.cjs', '.eslintrc.js'] },
-    ],
-  },
+  rules: baseRule,
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -46,8 +48,15 @@ export default {
   overrides: [
     {
       files: ['*.tsx', '*.ts', '*.mts', '*.cts'],
-      extends: ['airbnb-typescript', 'prettier'],
-      parser: '@typescript-eslint/parser',
+      plugins: ['eslint-comments', 'jest', 'unicorn'],
+      extends: [
+        'airbnb',
+        'airbnb/hooks',
+        'airbnb-typescript',
+        'prettier',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+      ],
       parserOptions: {
         project: './tsconfig.json',
         ecmaFeatures: {
@@ -57,6 +66,7 @@ export default {
         sourceType: 'module',
       },
       rules: {
+        ...baseRule,
         '@typescript-eslint/no-unused-expressions': 0,
         '@typescript-eslint/naming-convention': 0,
         '@typescript-eslint/restrict-plus-operands': 'error',
@@ -67,6 +77,19 @@ export default {
             disallowTypeAnnotations: true,
           },
         ],
+      },
+      settings: {
+        'import/resolver': {
+          typescript: {
+            extensions: ['.ts', '.tsx', '.mts', '.cts'],
+          },
+          node: {
+            extensions: ['.js', '.jsx', '.cjs', '.mjs', '.json'],
+          },
+        },
+        'import/parsers': {
+          '@typescript-eslint/parser': ['.ts', '.tsx', '.mts', '.cts'],
+        },
       },
     },
   ],
