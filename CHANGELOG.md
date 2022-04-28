@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.3](https://github.com/powerfulyang/lint/compare/v1.4.2...v1.4.3) (2022-04-28)
+
+
+### Bug Fixes
+
+* 被 GitHub Copilot 坑了 ([922a1c8](https://github.com/powerfulyang/lint/commit/922a1c8947f1e08fdbbfd59574028516950defd4))
+
 ### [1.4.2](https://github.com/powerfulyang/lint/compare/v1.4.1...v1.4.2) (2022-04-28)
 
 
