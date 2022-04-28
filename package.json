@@ -25,6 +25,9 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
+  "bin": {
+    "install-peers": "node ./scipts/install-peers.js"
+  },
   "files": [
     "dist"
   ],
