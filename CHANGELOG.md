@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.4](https://github.com/powerfulyang/lint/compare/v1.4.3...v1.4.4) (2022-04-28)
+
+
+### Bug Fixes
+
+* npm@8 下 peerDependencies 处理异常 ([98f70bb](https://github.com/powerfulyang/lint/commit/98f70bb79f91a17383551875e2cb4c18c020c707))
+
 ### [1.4.3](https://github.com/powerfulyang/lint/compare/v1.4.2...v1.4.3) (2022-04-28)
 
 
