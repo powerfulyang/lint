@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.2](https://github.com/powerfulyang/lint/compare/v1.4.1...v1.4.2) (2022-04-28)
+
+
+### Bug Fixes
+
+* typo scipts => scripts ([38aaa7f](https://github.com/powerfulyang/lint/commit/38aaa7f80e5be3db9187ce8187d953071376acbc))
+
 ### [1.4.1](https://github.com/powerfulyang/lint/compare/v1.4.0...v1.4.1) (2022-04-28)
 
 
