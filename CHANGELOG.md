@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.1](https://github.com/powerfulyang/lint/compare/v1.4.0...v1.4.1) (2022-04-28)
+
+
+### Bug Fixes
+
+* should set exec env ([4ef3db6](https://github.com/powerfulyang/lint/commit/4ef3db6a20f7c09a53f7877006c000fca572c88c))
+
 ## [1.4.0](https://github.com/powerfulyang/lint/compare/v1.3.0...v1.4.0) (2022-04-28)
 
 
