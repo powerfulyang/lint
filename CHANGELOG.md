@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.0](https://github.com/powerfulyang/lint/compare/v1.3.0...v1.4.0) (2022-04-28)
+
+
+### Features
+
+* scripts, install-peers ([7652333](https://github.com/powerfulyang/lint/commit/76523332005767fb6bdaf1183e79252817ad189e))
+* 真就大杂烩 ([2421741](https://github.com/powerfulyang/lint/commit/24217415d491357e3a08c2ac8ec2e0a42612bb1b))
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v16.2.4 ([b51263b](https://github.com/powerfulyang/lint/commit/b51263bbe8f5bb266d28a269a04e9995ca059069))
+
 ## [1.3.0](https://github.com/powerfulyang/lint/compare/v1.2.0...v1.3.0) (2022-04-27)
 
 
