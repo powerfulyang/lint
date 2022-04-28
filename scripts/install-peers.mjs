@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { join } from 'path';
 import { pathToFileURL } from 'url';
 import { createRequire } from 'module';
