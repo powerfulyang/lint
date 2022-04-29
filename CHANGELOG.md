@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.5](https://github.com/powerfulyang/lint/compare/v1.4.4...v1.4.5) (2022-04-29)
+
+
+### Bug Fixes
+
+* npm 至少在现在是垃圾 ([53e4ed4](https://github.com/powerfulyang/lint/commit/53e4ed4bc83383edcd7c4e49d1480e69de8fb3a2))
+
 ### [1.4.4](https://github.com/powerfulyang/lint/compare/v1.4.3...v1.4.4) (2022-04-28)
 
 
