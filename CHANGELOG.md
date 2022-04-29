@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.8](https://github.com/powerfulyang/lint/compare/v1.4.7...v1.4.8) (2022-04-29)
+
+
+### Bug Fixes
+
+* no-plusplus allowForLoopAfterthoughts ([a813a6e](https://github.com/powerfulyang/lint/commit/a813a6e564873f287cd46aee8b8ed0ccf1448aa2))
+
 ### [1.4.7](https://github.com/powerfulyang/lint/compare/v1.4.6...v1.4.7) (2022-04-29)
 
 
