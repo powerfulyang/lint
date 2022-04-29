@@ -40,14 +40,12 @@
     "prepublishOnly": "npm run build",
     "postprepare": "husky install",
     "tsc-check": "tsc --noEmit",
+    "test": "jest",
     "precommit": "npm run tsc-check && lint-staged"
   },
   "dependencies": {
     "@commitlint/cli": "16.2.4",
     "@commitlint/config-conventional": "16.2.4",
-    "@rollup/plugin-commonjs": "22.0.0",
-    "@rollup/plugin-node-resolve": "13.2.1",
-    "@rollup/plugin-typescript": "8.3.2",
     "@rollup/plugin-url": "6.1.0",
     "@types/jest": "27.4.1",
     "@types/node": "17.0.30",
@@ -77,8 +75,6 @@
     "postcss-scss": "4.0.4",
     "prettier": "2.6.2",
     "rimraf": "3.0.2",
-    "rollup": "2.70.2",
-    "rollup-plugin-postcss": "4.0.2",
     "sass": "1.51.0",
     "stylelint": "14.8.0",
     "stylelint-config-css-modules": "4.1.0",
@@ -88,10 +84,12 @@
     "stylelint-order": "5.0.0",
     "stylelint-prettier": "2.0.0",
     "stylelint-scss": "4.2.0",
-    "tailwindcss": "3.0.24",
     "ts-jest": "27.1.4",
-    "tsconfig-paths-jest": "0.0.1",
-    "tslib": "2.4.0",
-    "typescript": "4.6.4"
+    "tslib": "2.4.0"
+  },
+  "devDependencies": {
+    "typescript": "4.6.4",
+    "tailwindcss": "3.0.24",
+    "tsconfig-paths-jest": "0.0.1"
   }
 }
