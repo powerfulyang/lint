@@ -26,6 +26,7 @@ const baseRule = {
     'error',
     { devDependencies: ['.eslintrc.cjs', '.eslintrc.js', '**/*.config.js'] },
   ],
+  'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 };
 
 export default {
