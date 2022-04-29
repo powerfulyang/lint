@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.6](https://github.com/powerfulyang/lint/compare/v1.4.5...v1.4.6) (2022-04-29)
+
+
+### Bug Fixes
+
+* lock file is invalid ([164b845](https://github.com/powerfulyang/lint/commit/164b845f4bce97ced45e1a7f247b18263ba63f6b))
+
 ### [1.4.5](https://github.com/powerfulyang/lint/compare/v1.4.4...v1.4.5) (2022-04-29)
 
 
