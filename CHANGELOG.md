@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.7](https://github.com/powerfulyang/lint/compare/v1.4.6...v1.4.7) (2022-04-29)
+
+
+### Bug Fixes
+
+* 想了想还是拒绝大杂烩 ([8d8ad27](https://github.com/powerfulyang/lint/commit/8d8ad27878a898470721b23c8c65ee9a8f55150e))
+
 ### [1.4.6](https://github.com/powerfulyang/lint/compare/v1.4.5...v1.4.6) (2022-04-29)
 
 
