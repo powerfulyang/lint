@@ -85,7 +85,8 @@
     "stylelint-prettier": "2.0.0",
     "stylelint-scss": "4.2.0",
     "ts-jest": "27.1.4",
-    "tslib": "2.4.0"
+    "tslib": "2.4.0",
+    "rollup": "2.71.0"
   },
   "devDependencies": {
     "typescript": "4.6.4",

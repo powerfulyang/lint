@@ -24,7 +24,10 @@ const baseRule = {
   'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
   'import/no-extraneous-dependencies': [
     'error',
-    { devDependencies: ['.eslintrc.cjs', '.eslintrc.js', '**/*.config.js'] },
+    {
+      devDependencies: ['.eslintrc.cjs', '.eslintrc.js', '**/*.config.js', '**/*.spec.{ts,tsx}'],
+      peerDependencies: ['.eslintrc.cjs', '.eslintrc.js', '**/*.config.js', '**/*.spec.{ts,tsx}'],
+    },
   ],
   'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 };
