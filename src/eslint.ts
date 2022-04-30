@@ -25,7 +25,7 @@ const baseRule = {
   'import/no-extraneous-dependencies': [
     'error',
     {
-      devDependencies: ['.eslintrc.cjs', '.eslintrc.js', '**/*.config.js', '**/*.spec.{ts,tsx}'],
+      devDependencies: ['.eslintrc.{cjs,js}', '**/*.config.{js,cjs,mjs}', '**/*.spec.{ts,tsx}'],
     },
   ],
   'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
