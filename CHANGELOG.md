@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.12](https://github.com/powerfulyang/lint/compare/v1.4.11...v1.4.12) (2022-04-30)
+
+
+### Bug Fixes
+
+* no-extraneous-dependencies 和 一些调整 ([c9a703a](https://github.com/powerfulyang/lint/commit/c9a703a9193e8fa8d661d8cfc85e6091717b7d27))
+
 ### [1.4.11](https://github.com/powerfulyang/lint/compare/v1.4.10...v1.4.11) (2022-04-30)
 
 
