@@ -26,7 +26,6 @@ const baseRule = {
     'error',
     {
       devDependencies: ['.eslintrc.cjs', '.eslintrc.js', '**/*.config.js', '**/*.spec.{ts,tsx}'],
-      peerDependencies: ['.eslintrc.cjs', '.eslintrc.js', '**/*.config.js', '**/*.spec.{ts,tsx}'],
     },
   ],
   'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
