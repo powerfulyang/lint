@@ -14,7 +14,7 @@ const peers = pkg.peerDependencies || {};
 Object.keys(peers).forEach((peer) => {
   try {
     // npm@8, Cannot read properties of undefined (reading 'spec') when legacy-peer-deps is enabled
-    execSync(`npm install ${peer}@latest --no-save --no-audit`);
+    execSync(`npm install ${peer}@latest --no-audit`);
     console.log(`Installed peer dependency ${peer}`);
   } catch {
     console.error(`Error: installing peer dependency ${peer}`);
