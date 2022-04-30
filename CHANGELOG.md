@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.10](https://github.com/powerfulyang/lint/compare/v1.4.9...v1.4.10) (2022-04-30)
+
+
+### Bug Fixes
+
+* 不能加 --no-save ([fda7774](https://github.com/powerfulyang/lint/commit/fda7774f2de6cfc5b48da61651d9fd54a6c008ab))
+
 ### [1.4.9](https://github.com/powerfulyang/lint/compare/v1.4.8...v1.4.9) (2022-04-30)
 
 
