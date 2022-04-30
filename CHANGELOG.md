@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.4.9](https://github.com/powerfulyang/lint/compare/v1.4.8...v1.4.9) (2022-04-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.4.13 ([43ffec3](https://github.com/powerfulyang/lint/commit/43ffec3bb6f6fe3b262be819b3bb0cb7794b85e1))
+* **deps:** update dependency stylelint to v14.8.1 ([b9b99a7](https://github.com/powerfulyang/lint/commit/b9b99a749a9d9a70f1083705e64b82f8b7e7023f))
+* import/no-extraneous-dependencies ([970f3e2](https://github.com/powerfulyang/lint/commit/970f3e2107c505a2956466c44a2ec18f32df0704))
+
 ### [1.4.8](https://github.com/powerfulyang/lint/compare/v1.4.7...v1.4.8) (2022-04-29)
 
 
