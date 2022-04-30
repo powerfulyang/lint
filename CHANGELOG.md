@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.11](https://github.com/powerfulyang/lint/compare/v1.4.10...v1.4.11) (2022-04-30)
+
+
+### Bug Fixes
+
+* peerDependencies should be true ([8349d7c](https://github.com/powerfulyang/lint/commit/8349d7c905ac0fac91a1174fad4753e7a1644cdb))
+
 ### [1.4.10](https://github.com/powerfulyang/lint/compare/v1.4.9...v1.4.10) (2022-04-30)
 
 
