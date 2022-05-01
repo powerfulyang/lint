@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.6.1](https://github.com/powerfulyang/lint/compare/v1.6.0...v1.6.1) (2022-05-01)
+
+
+### Bug Fixes
+
+* replace any occurrences of "ts-jest/utils" with just "ts-jest" ([3077e8a](https://github.com/powerfulyang/lint/commit/3077e8a2edf0dd51a7551d8cac7fbc8cf88647c7))
+
 ## [1.6.0](https://github.com/powerfulyang/lint/compare/v1.5.0...v1.6.0) (2022-05-01)
 
 
