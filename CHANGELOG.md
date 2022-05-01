@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/powerfulyang/lint/compare/v1.5.0...v1.6.0) (2022-05-01)
+
+
+### Features
+
+* export pathsToModuleNameMapper ([3c0dd52](https://github.com/powerfulyang/lint/commit/3c0dd52b2a4923eec444a04fec6f863df3102d60))
+
 ## [1.5.0](https://github.com/powerfulyang/lint/compare/v1.4.12...v1.5.0) (2022-05-01)
 
 
