@@ -2,4 +2,5 @@ import eslint from './eslint';
 import stylelint from './stylelint';
 import prettier from './prettier';
 
+export { pathsToModuleNameMapper } from 'ts-jest/utils';
 export { stylelint, prettier, eslint };
