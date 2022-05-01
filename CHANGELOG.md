@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/powerfulyang/lint/compare/v1.4.12...v1.5.0) (2022-05-01)
+
+
+### Features
+
+* tsc-alias ([10b6dbb](https://github.com/powerfulyang/lint/commit/10b6dbbb40f5d7cc6a9ae77471329475bfd3c65a))
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v2.71.1 ([a8ef800](https://github.com/powerfulyang/lint/commit/a8ef80050251d6ba0c91984060ad47237a65b9ae))
+
 ### [1.4.12](https://github.com/powerfulyang/lint/compare/v1.4.11...v1.4.12) (2022-04-30)
 
 
