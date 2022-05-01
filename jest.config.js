@@ -1,7 +1,7 @@
-const jestTsconfig = require('tsconfig-paths-jest');
+const { pathsToModuleNameMapper } = require('ts-jest/utils');
 const tsconfig = require('./tsconfig.json');
 
-const moduleNameMapper = jestTsconfig(tsconfig);
+const moduleNameMapper = pathsToModuleNameMapper(tsconfig.compilerOptions);
 module.exports = {
   moduleNameMapper,
   moduleFileExtensions: ['ts', 'tsx', 'js'],
