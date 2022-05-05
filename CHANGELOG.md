@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.0.0](https://github.com/powerfulyang/lint/compare/v1.6.1...v2.0.0) (2022-05-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* **jest:** **Jest@28**
+
+### Features
+
+* **jest:** set Jest to v28 ([d5baf35](https://github.com/powerfulyang/lint/commit/d5baf356d17832c886bc1513f29131bd9c11d872))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/jest to v27.5.0 ([5285efc](https://github.com/powerfulyang/lint/commit/5285efc62528530d245ee5e178ad9623d0f1ba00))
+* **deps:** update dependency autoprefixer to v10.4.6 ([5285efc](https://github.com/powerfulyang/lint/commit/5285efc62528530d245ee5e178ad9623d0f1ba00))
+* **deps:** update dependency autoprefixer to v10.4.7 ([5285efc](https://github.com/powerfulyang/lint/commit/5285efc62528530d245ee5e178ad9623d0f1ba00))
+* **deps:** update dependency stylelint to v14.8.2 ([5285efc](https://github.com/powerfulyang/lint/commit/5285efc62528530d245ee5e178ad9623d0f1ba00))
+* **deps:** update typescript-eslint monorepo to v5.22.0 ([5285efc](https://github.com/powerfulyang/lint/commit/5285efc62528530d245ee5e178ad9623d0f1ba00))
+
 ### [1.6.1](https://github.com/powerfulyang/lint/compare/v1.6.0...v1.6.1) (2022-05-01)
 
 
