@@ -6,11 +6,10 @@ const moduleNameMapper = pathsToModuleNameMapper(tsconfig.compilerOptions.paths,
 });
 
 /**
- * @type {import('@jest/types').Config.InitialOptions}
+ * @type {import('@jest/types').InitialOptionsTsJest}
  */
 module.exports = {
   moduleNameMapper,
-  moduleFileExtensions: ['ts', 'tsx', 'js'],
   preset: 'ts-jest',
   testMatch: ['**/*.spec.(ts|tsx)'],
   testPathIgnorePatterns: ['./node_modules/', './dist/'],
