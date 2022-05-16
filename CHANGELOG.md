@@ -1,5 +1,24 @@
 # Changelog
 
+### [2.0.1](https://github.com/powerfulyang/lint/compare/v2.0.0...v2.0.1) (2022-05-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to v16.3.0 ([8ee3789](https://github.com/powerfulyang/lint/commit/8ee3789a0fb20f369cc83a0e34cc29a7142e20fc))
+* **deps:** update dependency @types/jest to v27.5.1 ([3d72730](https://github.com/powerfulyang/lint/commit/3d727306ce11cd9dd4484111fa305e404b3ac096))
+* **deps:** update dependency @types/react to v18.0.9 ([a0faf25](https://github.com/powerfulyang/lint/commit/a0faf25a971c06787594e18034a2d68136036dc2))
+* **deps:** update dependency @types/react-dom to v18.0.4 ([45ea2e8](https://github.com/powerfulyang/lint/commit/45ea2e8dece76e9e1dbf55c3a76efdd8ef089585))
+* **deps:** update dependency eslint to v8.15.0 ([2d53be1](https://github.com/powerfulyang/lint/commit/2d53be1ef401fabbc5ad31bf74c471a21fedeca3))
+* **deps:** update dependency eslint-plugin-jest to v26.2.0 ([7663e43](https://github.com/powerfulyang/lint/commit/7663e43534f28ee876b656cdec727fdc8ba06aeb))
+* **deps:** update dependency eslint-plugin-jest to v26.2.1 ([a242225](https://github.com/powerfulyang/lint/commit/a242225203fb81a4f215d59313524d907c183ecf))
+* **deps:** update dependency eslint-plugin-jest to v26.2.2 ([803cf8c](https://github.com/powerfulyang/lint/commit/803cf8ccc7967fe1b575719998a06783e9873600))
+* **deps:** update dependency jest to v28.1.0 ([d035341](https://github.com/powerfulyang/lint/commit/d03534128952416c1005b9bf57b22e4ffeb3c0fc))
+* **deps:** update dependency rollup to v2.72.1 ([e4368ce](https://github.com/powerfulyang/lint/commit/e4368ce4defd2ce51af49301ee7b4bdfc00ae0ee))
+* **deps:** update dependency rollup to v2.73.0 ([3e94fce](https://github.com/powerfulyang/lint/commit/3e94fceb839f13da308c77fdce114a61b1909752))
+* **deps:** update dependency ts-jest to v28.0.2 ([7b59e62](https://github.com/powerfulyang/lint/commit/7b59e623b6cf88fb1ffa5aa9f6c7a162af8eed34))
+* **deps:** update typescript-eslint monorepo to v5.23.0 ([5d8e754](https://github.com/powerfulyang/lint/commit/5d8e7540f596123c2511eee6d8d29f5f685ec98c))
+
 ## [2.0.0](https://github.com/powerfulyang/lint/compare/v1.6.1...v2.0.0) (2022-05-05)
 
 
