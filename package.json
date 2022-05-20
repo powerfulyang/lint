@@ -76,7 +76,7 @@
     "prettier": "2.6.2",
     "rimraf": "3.0.2",
     "rollup": "2.74.1",
-    "sass": "1.51.0",
+    "sass": "1.52.0",
     "stylelint": "14.8.2",
     "stylelint-config-css-modules": "4.1.0",
     "stylelint-config-prettier": "9.0.3",
