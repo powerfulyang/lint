@@ -5,9 +5,7 @@ const moduleNameMapper = pathsToModuleNameMapper(tsconfig.compilerOptions.paths,
   prefix: '<rootDir>/',
 });
 
-/**
- * @type {import('@jest/types').InitialOptionsTsJest}
- */
+/** @type {import('ts-jest').InitialOptionsTsJest} */
 module.exports = {
   moduleNameMapper,
   preset: 'ts-jest',
