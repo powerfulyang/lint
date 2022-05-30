@@ -1,5 +1,25 @@
 # Changelog
 
+### [2.0.2](https://github.com/powerfulyang/lint/compare/v2.0.1...v2.0.2) (2022-05-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to v17.0.1 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency @types/react-dom to v18.0.5 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency eslint-plugin-jest to v26.3.0 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency eslint-plugin-jest to v26.4.2 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency eslint-plugin-jest to v26.4.5 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency lint-staged to v12.4.2 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency rollup to v2.75.0 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency rollup to v2.75.1 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency rollup to v2.75.3 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency stylelint to v14.8.4 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency stylelint to v14.8.5 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency ts-jest to v28.0.3 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update dependency typescript to v4.7.2 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+* **deps:** update typescript-eslint monorepo to v5.26.0 ([f6a4bb5](https://github.com/powerfulyang/lint/commit/f6a4bb54234a00bc8ed90171c5bf9af2c4907762))
+
 ### [2.0.1](https://github.com/powerfulyang/lint/compare/v2.0.0...v2.0.1) (2022-05-21)
 
 

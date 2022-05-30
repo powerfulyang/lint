@@ -1,6 +1,6 @@
 {
   "name": "@powerfulyang/lint",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "homepage": "https://github.com/powerfulyang/lint#readme",
   "repository": {
