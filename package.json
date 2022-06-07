@@ -75,7 +75,7 @@
     "postcss-scss": "4.0.4",
     "prettier": "2.6.2",
     "rimraf": "3.0.2",
-    "rollup": "2.75.5",
+    "rollup": "2.75.6",
     "sass": "1.52.2",
     "stylelint": "14.8.5",
     "stylelint-config-css-modules": "4.1.0",
