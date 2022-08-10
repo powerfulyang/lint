@@ -25,9 +25,6 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "bin": {
-    "install-peers": "./scripts/install-peers.mjs"
-  },
   "files": [
     "dist"
   ],
