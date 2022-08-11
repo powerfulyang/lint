@@ -74,7 +74,7 @@
     "rimraf": "3.0.2",
     "rollup": "2.77.2",
     "sass": "1.54.4",
-    "stylelint": "14.9.1",
+    "stylelint": "14.10.0",
     "stylelint-config-css-modules": "4.1.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-standard": "25.0.0",
