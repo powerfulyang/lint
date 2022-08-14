@@ -51,7 +51,7 @@
     "@typescript-eslint/parser": "5.33.0",
     "autoprefixer": "latest",
     "cross-env": "latest",
-    "eslint": "8.21.0",
+    "eslint": "8.22.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "17.0.0",
     "eslint-config-prettier": "8.5.0",
