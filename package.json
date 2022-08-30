@@ -30,7 +30,7 @@
   ],
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc -p tsconfig.build.json",
+    "build": "tsc -p tsconfig.build.json && tsc-alias",
     "prettier": "prettier \"{src,example}/**/*.{ts,tsx,scss}\" --write",
     "lint:js": "eslint --ext .ts,.tsx ./src --fix",
     "lint:style": "stylelint --fix \"example/*.scss\"",
@@ -40,18 +40,21 @@
     "test": "jest",
     "precommit": "npm run tsc-check && lint-staged"
   },
+  "devDependencies": {
+    "typescript": "latest"
+  },
   "dependencies": {
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
     "@types/jest": "29.0.0",
-    "@types/node": "17.0.35",
+    "@types/node": "latest",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.36.0",
     "@typescript-eslint/parser": "5.36.0",
     "autoprefixer": "latest",
     "cross-env": "latest",
-    "eslint": "8.23.0",
+    "eslint": "8.22.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-typescript": "17.0.0",
     "eslint-config-prettier": "8.5.0",
@@ -72,7 +75,7 @@
     "postcss-scss": "latest",
     "prettier": "latest",
     "rimraf": "latest",
-    "rollup": "2.78.1",
+    "rollup": "latest",
     "sass": "latest",
     "stylelint": "14.11.0",
     "stylelint-config-css-modules": "4.1.0",
@@ -82,10 +85,9 @@
     "stylelint-order": "5.0.0",
     "stylelint-prettier": "2.0.0",
     "stylelint-scss": "4.3.0",
-    "tailwindcss": "3.1.8",
-    "ts-jest": "28.0.8",
     "tsc-alias": "latest",
     "tslib": "latest",
-    "typescript": "latest"
+    "@swc/core": "latest",
+    "@swc/jest": "latest"
   }
 }
