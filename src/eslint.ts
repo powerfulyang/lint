@@ -25,10 +25,29 @@ const baseRule = {
   'import/no-extraneous-dependencies': [
     'error',
     {
-      devDependencies: ['.eslintrc.{cjs,js}', '**/*.config.{js,cjs,mjs}', '**/*.spec.{ts,tsx}'],
+      devDependencies: [
+        '.*rc.{js,cjs,mjs,ts,cts,mts}',
+        '**/*.config.{js,cjs,mjs,ts,cts,mts}',
+        '**/*.spec.{ts,tsx}',
+      ],
     },
   ],
   'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+  'import/extensions': [
+    'error',
+    'ignorePackages',
+    {
+      mjs: 'always',
+      mts: 'never',
+      ts: 'never',
+      tsx: 'never',
+      js: 'never',
+      jsx: 'never',
+      cjs: 'always',
+      cts: 'never',
+      json: 'always',
+    },
+  ],
 };
 
 export default {
@@ -37,7 +56,6 @@ export default {
   env: {
     browser: true,
     node: true,
-    es2022: true,
     jest: true,
   },
   rules: baseRule,
@@ -53,6 +71,11 @@ export default {
       files: ['*.tsx', '*.ts', '*.mts', '*.cts'],
       plugins: ['eslint-comments', 'jest', 'unicorn'],
       extends: ['airbnb', 'airbnb/hooks', 'airbnb-typescript', 'prettier'],
+      env: {
+        browser: true,
+        node: true,
+        jest: true,
+      },
       parserOptions: {
         project: './tsconfig.json',
         ecmaFeatures: {

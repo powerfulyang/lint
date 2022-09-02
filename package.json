@@ -44,14 +44,16 @@
     "typescript": "latest"
   },
   "dependencies": {
-    "@commitlint/cli": "17.1.2",
-    "@commitlint/config-conventional": "17.1.0",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@swc/core": "latest",
+    "@swc/jest": "latest",
     "@types/jest": "29.0.0",
     "@types/node": "latest",
     "@types/react": "18.0.18",
     "@types/react-dom": "18.0.6",
-    "@typescript-eslint/eslint-plugin": "5.36.1",
-    "@typescript-eslint/parser": "5.36.1",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
     "autoprefixer": "latest",
     "cross-env": "latest",
     "eslint": "8.22.0",
@@ -74,6 +76,7 @@
     "postcss": "latest",
     "postcss-scss": "latest",
     "prettier": "latest",
+    "prettier-plugin-tailwindcss": "latest",
     "rimraf": "latest",
     "rollup": "latest",
     "sass": "latest",
@@ -86,8 +89,6 @@
     "stylelint-prettier": "2.0.0",
     "stylelint-scss": "4.3.0",
     "tsc-alias": "latest",
-    "tslib": "latest",
-    "@swc/core": "latest",
-    "@swc/jest": "latest"
+    "tslib": "latest"
   }
 }

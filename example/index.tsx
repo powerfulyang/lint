@@ -13,7 +13,7 @@ export const App: FC = () => {
       {[1, 2].map((i) => (
         <div key={i}>
           <span>{i}</span>
-          <span>{eslint.env.es2022}</span>
+          <span>{eslint.env.browser}</span>
           <Other />
         </div>
       ))}
