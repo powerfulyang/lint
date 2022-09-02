@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.1.0](https://github.com/powerfulyang/lint/compare/v3.0.0...v3.1.0) (2022-09-02)
+
+
+### Features
+
+* add prettier-plugin-tailwindcss ([69550a3](https://github.com/powerfulyang/lint/commit/69550a3a2648dc6945f503d387c41ba2bfae1d50))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/react to v18.0.18 ([4351e41](https://github.com/powerfulyang/lint/commit/4351e41fee8d011a59b7ffc46f1c4e13b2f59d2a))
+* **deps:** update typescript-eslint monorepo to v5.36.1 ([bbbdc39](https://github.com/powerfulyang/lint/commit/bbbdc3906eb9aa3fb0ff054ff0d58cd0dc91a927))
+
 ## [3.0.0](https://github.com/powerfulyang/lint/compare/v2.0.2...v3.0.0) (2022-08-30)
 
 
