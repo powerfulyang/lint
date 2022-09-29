@@ -90,5 +90,10 @@
     "stylelint-scss": "4.3.0",
     "tsc-alias": "latest",
     "tslib": "latest"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/node": "latest"
+    }
   }
 }
