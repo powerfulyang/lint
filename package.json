@@ -48,7 +48,7 @@
     "@commitlint/config-conventional": "latest",
     "@swc/core": "latest",
     "@swc/jest": "latest",
-    "@types/jest": "29.1.2",
+    "@types/jest": "29.2.0",
     "@types/node": "latest",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
