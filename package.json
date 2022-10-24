@@ -50,7 +50,7 @@
     "@swc/jest": "latest",
     "@types/jest": "29.2.0",
     "@types/node": "latest",
-    "@types/react": "18.0.21",
+    "@types/react": "18.0.22",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
