@@ -15,11 +15,27 @@ export default {
     'scss/at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['tailwind', 'apply', 'variants', 'responsive', 'screen'],
+        ignoreAtRules: [
+          'tailwind',
+          'apply',
+          'layer',
+          'config',
+          /** tailwindcss v1, v2 */
+          'variants',
+          'responsive',
+          'screen',
+        ],
       },
     ],
     'plugin/declaration-block-no-ignored-properties': true,
     'font-family-name-quotes': null,
+    'prettier/prettier': true,
+    'function-no-unknown': [
+      true,
+      {
+        ignoreFunctions: ['theme'],
+      },
+    ],
   },
   overrides: [
     {
@@ -27,6 +43,7 @@ export default {
       customSyntax: 'postcss-scss',
       rules: {
         'prettier/prettier': true,
+        'import-notation': 'string',
       },
     },
   ],
