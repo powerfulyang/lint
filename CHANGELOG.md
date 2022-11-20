@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.1.2](https://github.com/powerfulyang/lint/compare/v3.1.1...v3.1.2) (2022-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @types/jest to v29.2.2 ([34039a6](https://github.com/powerfulyang/lint/commit/34039a63df11f738cd5b19e49475ac2d5c84fce4))
+* **deps:** update dependency @types/jest to v29.2.3 ([864b2a9](https://github.com/powerfulyang/lint/commit/864b2a988dc64a231fbe445bd7323c241d8596f3))
+* **deps:** update dependency @types/react to v18.0.25 ([c390d59](https://github.com/powerfulyang/lint/commit/c390d5924bcd077f2261b5df881add9e0914d0fc))
+* **deps:** update dependency @types/react-dom to v18.0.9 ([83b0886](https://github.com/powerfulyang/lint/commit/83b08869b4ea73e8f3be58cf93f1f8f1f847e768))
+* **deps:** update dependency eslint to v8.27.0 ([3edc245](https://github.com/powerfulyang/lint/commit/3edc245e387c7fe06dfaeda0b6fa6da5b6e0b92b))
+* **deps:** update dependency eslint to v8.28.0 ([2b91f5e](https://github.com/powerfulyang/lint/commit/2b91f5e450b327f020d3fa20f22658e67566a667))
+* **deps:** update dependency eslint-plugin-jest to v27.1.4 ([3270389](https://github.com/powerfulyang/lint/commit/327038909471310c6f7c3e45d202522887a5000b))
+* **deps:** update dependency eslint-plugin-jest to v27.1.5 ([ebfb079](https://github.com/powerfulyang/lint/commit/ebfb079830956e2e38f760f4ebadc0ef3df6ee56))
+* **deps:** update dependency eslint-plugin-react to v7.31.11 ([4e98f52](https://github.com/powerfulyang/lint/commit/4e98f52ee6dda9c6553ae9253756e7befa011773))
+* **deps:** update dependency stylelint to v14.14.1 ([db1412b](https://github.com/powerfulyang/lint/commit/db1412be346de16395c571792d6e962bb9361b56))
+* **deps:** update dependency stylelint to v14.15.0 ([4539634](https://github.com/powerfulyang/lint/commit/4539634d7edbc2b7973fe623467699df9578cf00))
+* **deps:** update dependency stylelint-config-prettier to v9.0.4 ([199d635](https://github.com/powerfulyang/lint/commit/199d6355c8cea5af477e81392b65fe6bdd52781b))
+* **deps:** update jest monorepo to v29.3.0 ([c411b75](https://github.com/powerfulyang/lint/commit/c411b75da8e4de49d5bdac2dbeffd15824b1b25a))
+* **deps:** update jest monorepo to v29.3.1 ([9cc2f37](https://github.com/powerfulyang/lint/commit/9cc2f379a223017602b4541c102a4f4c28908859))
+
 ## [3.1.1](https://github.com/powerfulyang/lint/compare/v3.1.0...v3.1.1) (2022-11-01)
 
 
