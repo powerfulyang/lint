@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.3](https://github.com/powerfulyang/lint/compare/v3.1.2...v3.1.3) (2022-11-20)
+
+
+### Bug Fixes
+
+* scss stylelint import-notation ([23cdd2c](https://github.com/powerfulyang/lint/commit/23cdd2c59970a49995483b9f27315cc874835199))
+
 ## [3.1.2](https://github.com/powerfulyang/lint/compare/v3.1.1...v3.1.2) (2022-11-19)
 
 
