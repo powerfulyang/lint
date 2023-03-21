@@ -109,6 +109,7 @@ export default {
             ignoreStatic: true,
           },
         ],
+        '@typescript-eslint/strict-boolean-expressions': 'error',
       },
       settings: {
         'import/resolver': {

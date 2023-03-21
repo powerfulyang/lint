@@ -1,9 +1,5 @@
 export default {
-  extends: [
-    'stylelint-config-standard',
-    'stylelint-config-css-modules',
-    'stylelint-config-prettier',
-  ],
+  extends: ['stylelint-config-standard', 'stylelint-config-css-modules'],
   plugins: [
     'stylelint-order',
     'stylelint-declaration-block-no-ignored-properties',
