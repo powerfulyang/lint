@@ -10,7 +10,7 @@ export const pathsToModuleNameMapper = (
   mapping: TsPathMapping,
   { prefix = '' }: { prefix: string } = Object.create(null),
 ) => {
-  const jestMap = {};
+  const jestMap = Object.create(null);
   for (const fromPath of Object.keys(mapping)) {
     let pattern: string;
     const toPaths = mapping[fromPath];
