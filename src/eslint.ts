@@ -109,7 +109,7 @@ export default {
             ignoreStatic: true,
           },
         ],
-        '@typescript-eslint/strict-boolean-expressions': 'error',
+        // '@typescript-eslint/strict-boolean-expressions': 'error', 这玩意不是很好用, 要是只检查 tsx 就好了
       },
       settings: {
         'import/resolver': {
