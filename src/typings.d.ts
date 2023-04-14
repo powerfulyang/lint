@@ -1,2 +1,2 @@
-/// <reference types="node" />
+/// <reference types="node/fs" />
 /// <reference types="@types/jest" />
