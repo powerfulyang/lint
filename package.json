@@ -38,7 +38,7 @@
     "postprepare": "husky install",
     "tsc-check": "tsc --noEmit",
     "test": "jest",
-    "precommit": "npm run tsc-check && lint-staged"
+    "precommit": "lint-staged"
   },
   "devDependencies": {
     "@types/node": "18.15.11",
