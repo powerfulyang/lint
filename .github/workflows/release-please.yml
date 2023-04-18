@@ -1,11 +1,80 @@
+name: release-please
+
 on:
   push:
     branches:
       - master
-name: release-please
+  pull_request:
+    branches:
+      - master
+
 jobs:
+  Test:
+    name: Test on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node-version: ['lts/*']
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+          cache-dependency-path: 'pnpm-lock.yaml'
+      - name: install
+        run: pnpm install
+      - name: build
+        run: pnpm run build
+      - name: Get number of CPU cores
+        id: cpu-cores
+        uses: SimenB/github-actions-cpu-cores@v1
+      - name: run tests
+        run: pnpm run test --max-workers ${{ steps.cpu-cores.outputs.count }}
+
+  tsc-check:
+    name: tsc-check on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node-version: ['lts/*']
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
+      - name: Use Node.js lts/*
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'
+          cache: 'pnpm'
+          cache-dependency-path: 'pnpm-lock.yaml'
+      - name: install
+        run: pnpm install
+      - name: tsc check
+        run: pnpm run tsc-check
+
   release-please:
-    runs-on: ubuntu-latest
+    if: github.event_name == 'push' # 仅在 push 事件下执行此 job
+    needs: [Test, tsc-check]
+    name: release-please
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        node-version: ['lts/*']
+        os: [ubuntu-latest]
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release
@@ -23,11 +92,11 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - uses: actions/setup-node@v3
         with:
-          node-version: 'lts/*'
+          node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
           cache-dependency-path: 'pnpm-lock.yaml'
         if: ${{ steps.release.outputs.release_created }}
-      - run: pnpm i --frozen-lockfile
+      - run: pnpm install
         if: ${{ steps.release.outputs.release_created }}
       - name: npm login
         run: echo //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} > ~/.npmrc
