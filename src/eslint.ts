@@ -26,9 +26,10 @@ const baseRule = {
     'error',
     {
       devDependencies: [
-        '.*rc.{js,cjs,mjs,ts,cts,mts}',
+        '**/*rc.{js,cjs,mjs,ts,cts,mts}',
         '**/*.config.{js,cjs,mjs,ts,cts,mts}',
         '**/*.spec.{ts,tsx}',
+        '**/*.d.ts',
       ],
     },
   ],
