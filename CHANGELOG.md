@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.1](https://github.com/powerfulyang/lint/compare/v3.2.0...v3.2.1) (2023-04-18)
+
+
+### Bug Fixes
+
+* postinstall issue on being installed as a dependency ([0b3c4d9](https://github.com/powerfulyang/lint/commit/0b3c4d9101feabfbe91d0bfe5e495c6352464def))
+
 ## [3.2.0](https://github.com/powerfulyang/lint/compare/v3.1.3...v3.2.0) (2023-04-18)
 
 
