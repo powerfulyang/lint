@@ -111,6 +111,7 @@ export default {
           },
         ],
         // '@typescript-eslint/strict-boolean-expressions': 'error', 这玩意不是很好用, 要是只检查 tsx 就好了
+        '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
       },
       settings: {
         'import/resolver': {
