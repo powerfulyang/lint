@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.3.0](https://github.com/powerfulyang/lint/compare/v3.2.1...v3.3.0) (2023-05-31)
+
+
+### Features
+
+* **deps:** upgrade @swc/core version ([d716487](https://github.com/powerfulyang/lint/commit/d716487ccadd2e3ef43ded02d0baf79059b6db50))
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.39.0 ([#402](https://github.com/powerfulyang/lint/issues/402)) ([3390260](https://github.com/powerfulyang/lint/commit/3390260399147d3c87a6b4708596ef55795dfcb8))
+* **no-use-before-define:** don't show error when function used before define ([c95fca5](https://github.com/powerfulyang/lint/commit/c95fca59a5ab35b038b6e619be1357872e601f3d))
+
 ## [3.2.1](https://github.com/powerfulyang/lint/compare/v3.2.0...v3.2.1) (2023-04-18)
 
 
