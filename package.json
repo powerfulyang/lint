@@ -78,7 +78,7 @@
     "stylelint-prettier": "3.0.0",
     "stylelint-scss": "5.0.0",
     "tsc-alias": "1.8.6",
-    "tslib": "2.5.2"
+    "tslib": "2.5.3"
   },
   "devDependencies": {
     "@jest/globals": "29.5.0",
