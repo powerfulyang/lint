@@ -76,7 +76,7 @@
     "stylelint-declaration-block-no-ignored-properties": "2.7.0",
     "stylelint-order": "6.0.3",
     "stylelint-prettier": "3.0.0",
-    "stylelint-scss": "5.0.0",
+    "stylelint-scss": "5.0.1",
     "tsc-alias": "1.8.6",
     "tslib": "2.5.2"
   },
