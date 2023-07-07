@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.0](https://github.com/powerfulyang/lint/compare/v3.4.0...v3.5.0) (2023-07-07)
+
+
+### Features
+
+* **deps:** upgrade @swc/core version ([840e0cf](https://github.com/powerfulyang/lint/commit/840e0cfadc4c38bc01209f04757fa00a690aef60))
+
 ## [3.4.0](https://github.com/powerfulyang/lint/compare/v3.3.0...v3.4.0) (2023-06-17)
 
 
