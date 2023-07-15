@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.1](https://github.com/powerfulyang/lint/compare/v3.5.0...v3.5.1) (2023-07-15)
+
+
+### Bug Fixes
+
+* **deps:** @swc/core ([0a9ac95](https://github.com/powerfulyang/lint/commit/0a9ac951f798eff80e16977cd626b9b290ebb8aa))
+
 ## [3.5.0](https://github.com/powerfulyang/lint/compare/v3.4.0...v3.5.0) (2023-07-07)
 
 
