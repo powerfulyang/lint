@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.6.0](https://github.com/powerfulyang/lint/compare/v3.5.1...v3.6.0) (2023-07-28)
+
+
+### Features
+
+* Update package dependencies in pnpm-lock.yaml ([7bd7ea5](https://github.com/powerfulyang/lint/commit/7bd7ea51cd40fe4956479ea863b2100d0d9cd389))
+
 ## [3.5.1](https://github.com/powerfulyang/lint/compare/v3.5.0...v3.5.1) (2023-07-15)
 
 
