@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.0](https://github.com/powerfulyang/lint/compare/v3.6.0...v3.7.0) (2023-08-10)
+
+
+### Features
+
+* **deps:** update dependencies ([90c2a1d](https://github.com/powerfulyang/lint/commit/90c2a1d8181cab49d52515c07d637c91744f5fc0))
+
 ## [3.6.0](https://github.com/powerfulyang/lint/compare/v3.5.1...v3.6.0) (2023-07-28)
 
 
